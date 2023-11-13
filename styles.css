@@ -1,8 +1,33 @@
 body {
-    background-color: rgb(110, 252, 193);
+
+background:
+    linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(160,0,100,0.7)
+    ),
+    url("imgs/chair.png");
+
 }
+
 h1 {
-    color: aliceblue;
     font-family: Impact;
     font-size: 200%;
+    background: -webkit-linear-gradient(rgb(222, 209, 255), #ff0000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    color: rgb(171, 200, 255);
+}
+
+p {
+    color: rgb(174, 204, 204);
+    font-family:'Courier New', Courier, monospace;
+}
+
+span.highlight {
+    color: greenyellow;
+    font-weight: bold;
 }
