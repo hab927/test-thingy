@@ -1,5 +1,6 @@
 var count = 0;
 var addAmount = 1;
+var addAddAmount = 1;
 
 function increase() {
     count += addAmount;
@@ -7,6 +8,11 @@ function increase() {
 }
 
 function upgrade() {
-    addAmount += 1;
-    document.getElementsByClassName("upgradeParam")[0].innerHTML = addAmount;
+    addAmount += addAddAmount;
+    document.getElementById("upgradeParam").innerHTML = addAmount;
+}
+
+function upgradeUpgrade() {
+    addAddAmount += 1;
+    document.getElementById("uuparam").innerHTML = addAddAmount;
 }
