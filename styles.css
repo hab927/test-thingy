@@ -2,8 +2,8 @@ body {
 
 background:
     linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(160,0,100,0.7)
+        rgba(0,0,40,0.7),
+        rgba(10,0,10,0.7)
     ),
     url("imgs/chair.png");
 
@@ -13,8 +13,7 @@ h1 {
     font-family: Impact;
     font-size: 200%;
     background: -webkit-linear-gradient(rgb(222, 209, 255), #ff0000);
-    -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-background-clip: text; background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -30,4 +29,12 @@ p {
 span.highlight {
     color: greenyellow;
     font-weight: bold;
+}
+
+span.fancy {
+    font-family: Cambria;
+    font-size: 350%;
+    background: -webkit-radial-gradient(#4190A5, #FF00DD);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
